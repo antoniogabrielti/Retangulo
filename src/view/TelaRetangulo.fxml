@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controle.RetanguloControle">
+   <children>
+      <TextField fx:id="CampoBase" layoutX="258.0" layoutY="108.0" />
+      <TextField fx:id="CampoAltura" layoutX="258.0" layoutY="158.0" />
+      <Label layoutX="212.0" layoutY="108.0" prefHeight="25.0" prefWidth="34.0" text="Base:" />
+      <Label layoutX="211.0" layoutY="162.0" text="Altura:" />
+      <Button layoutX="274.0" layoutY="220.0" mnemonicParsing="false" onAction="#areaRetangulo" text="Calcular" />
+      <Label fx:id="CampoArea" layoutX="182.0" layoutY="283.0" prefHeight="69.0" prefWidth="260.0" />
+   </children>
+</AnchorPane>
